@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phone Book</title>
+    <link rel="icon" href="contacts.png" type="image/png">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+
+    <div class="container">
+
+      <h1 class="heading head">📞 PhoneBook</h1>
+
+      <div class="add-contact">
+        <h2 class="heading">Add New Contact</h2>
+        <input type="text" id="name" placeholder="Name" />
+        <input type="text" id="phone" placeholder="Phone Number" />
+        <button onclick="addContact()">Add Contact</button>
+      </div>
+
+      <br />
+      <hr />
+
+      
+      <div class="search-contact">
+        <h2 class="heading">Search Contact</h2>
+        <input type="text" id="search" placeholder="Search by Name"  oninput="searchContact()" />
+      </div>
+
+      <br />
+      <hr />
+      
+      <h2 class="heading">Phonebook</h2>
+      <ul id="phonebook-list">
+        
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
