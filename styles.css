@@ -75,3 +75,35 @@ hr {
   font-size: 0.1px;
   color: #ffffff;
 }
+
+
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; 
+    margin: 20px auto; 
+  }
+
+  .heading {
+    font-size: 1.5rem; 
+  }
+
+  input {
+    width: 90%; 
+  }
+
+  button {
+    width: 60%;
+  }
+
+  li {
+    font-size: 1rem; 
+    padding: 8px; 
+  }
+
+  button.delete {
+    width: 60%; 
+  }
+}
+
